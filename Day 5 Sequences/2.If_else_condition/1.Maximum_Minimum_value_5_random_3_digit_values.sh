@@ -10,16 +10,16 @@ echo "Enter the random5 of 3 dgit values: "
 read n5
 
 echo"*****************************Finding Maximum Value**********************"
-if [ $n1 -ge $n2 ] && [ $n1 -ge $n3 ] && [ $n1 -ge $n4 ] && [ $n1 -ge $n5 ] 
+if [ $n1 -gt $n2 ] && [ $n1 -gt $n3 ] && [ $n1 -gt $n4 ] && [ $n1 -gt $n5 ] 
 then 
  echo "$n1 is Maximum number"
-elif [ $n2 -ge $n1 ] && [ $n2 -ge $n3 ] && [ $n2 -ge $n4 ] && [ $n2 -ge $n5 ] 
+elif [ $n2 -gt $n1 ] && [ $n2 -gt $n3 ] && [ $n2 -gt $n4 ] && [ $n2 -gt $n5 ] 
 then 
  echo "$n2 is Maximum number"
-elif [ $n3 -ge $n1 ] && [ $n3 -ge $n2 ] && [ $n3 -ge $n4 ] && [ $n3 -ge $n5 ] 
+elif [ $n3 -gt $n1 ] && [ $n3 -gt $n2 ] && [ $n3 -gt $n4 ] && [ $n3 -gt $n5 ] 
 then 
  echo "$n3 is Maximum number"
-elif [ $n4 -ge $n1 ] && [ $n4 -ge $n2 ] && [ $n4 -ge $n3 ] && [ $n4 -ge $n5 ] 
+elif [ $n4 -gt $n1 ] && [ $n4 -gt $n2 ] && [ $n4 -gt $n3 ] && [ $n4 -gt $n5 ] 
 then 
  echo "$n4 is Maximum number"
 else 
