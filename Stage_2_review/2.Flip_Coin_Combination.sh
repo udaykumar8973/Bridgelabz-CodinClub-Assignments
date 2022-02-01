@@ -69,7 +69,6 @@ done
 
 for combination in ${!doublet_frequency[@]}
 do
-    #update count values  with corresponding percentage
     percentage=$(( ${doublet_frequency[$combination]}  * 100 / no_of_flips ))
     doublet_frequency[$combination]=$percentage
     echo "percentage of $combination is ${doublet_frequency[$combination]}%"   
@@ -132,7 +131,6 @@ do
 done
 for combination in ${!triplet_frequency[@]}
 do
-    #update count values  with corresponding percentage
     percentage=$(( ${triplet_frequency[$combination]}  * 100 / no_of_flips ))
     triplet_frequency[$combination]=$percentage
     echo "percentage of $combination is ${triplet_frequency[$combination]}%"   
